@@ -16,7 +16,6 @@ public class main {
         p1.useItem(0);
         p1.displayInventory();
         System.out.println("Level : " + p1.getLevel());
-        System.out.println("Jumlah Member : " + c1.getMemberCount());
-
+        System.out.println("Member ammount : " + c1.getMemberCount());
     }
 }
