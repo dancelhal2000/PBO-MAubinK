@@ -1,6 +1,6 @@
 package Jobsheet4.RumahSakit.Tugas;
 
-public class Main {
+public class main {
 
     public static void main(String[] args) {
         Player p1 = new Player("John", 10);
