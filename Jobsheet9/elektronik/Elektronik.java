@@ -11,9 +11,21 @@ public class Elektronik{
         public String jenis;
     }
 
-    public class TV extends AlatElektronik {
+    public class TV extends AlatElektronik implements Audible {
         public String jenisLayar;
         public int volume;
+
+        @Override
+        public void naikkanVolume() {
+            this.volume++;
+        }
+
+        @Override
+        public void turunkanVolume() {
+            if (this.volume > 0) {
+                this.volume--;
+            }
+        }
     }
 
     public class Kulkas extends AlatElektronik {
